@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Artist Example Site</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/carousel.css">
+        <link rel="stylesheet" href="styles/pricing.css">
+        <link rel="stylesheet" href="styles/contact-info.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+        
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+        <header class="header">
+
+            <nav class="navigation" aria-label="primary-navigation">
+                <a class="header__button-about-me" href="#about-me">About Me</a>
+                <a class="header__button-portfolio" href="#artwork">Artwork</a>
+                <a class="header__button-pricing" href="#pricing">Pricing</a>
+                <a class="header__button-contact-info" href="#contact-info">Contact Info</a>
+            </nav>
+
+        </header>
+
+        <main>
+            <div id="about-me" class="about-me">
+
+                <article class="introduction">
+                    <h1>Your Name</h1>
+                    <p>Digital Artist</p>
+                    <p>I am an experienced artist with skill in a variety of tools including Krita, Medibang, Ibis Paint and Fire Alpaca.</p>
+                    <img class="landscape-image" src="images/landscape.png" alt="">
+                </article>
+
+                <aside class="about-art">
+                    <img class="portrait-image" src="images/portrait.png" alt="">
+                    <p>My primary art styles are cartoon and semi-realism. I do portraits, character designs, landscapes and more.</p>
+                </aside>
+            </div>
+
+            <section id="artwork" class="previous-work">
+                <h2 class="previous-work__header">Artwork</h2>
+
+                <div class="carousel">
+                    <div class="carousel__track-container">
+                        <ul class="carousel__track">
+                            <li class="carousel__slide"><img class="carousel__img" src="images/fox.png" alt=""></li>
+                            <li class="carousel__slide"><img class="carousel__img" src="images/fur.png" alt=""></li>
+                            <li class="carousel__slide"><img class="carousel__img" src="images/timmy.png" alt=""></li>
+                            <li class="carousel__slide"><img class="carousel__img" src="images/dance.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <button class="carousel__button carousel__button--left">&#60;</button>
+                    <button class="carousel__button carousel__button--right">&#62;</button>
+                </div>
+
+                <nav class="carousel__nav"></nav>
+            </section>
+
+            <article id="pricing" class="pricing">
+
+                <h2>Pricing</h2>
+
+                <div class="info-backdrop">
+
+                    <div class="prices">
+                        <p>Sketch - $10</p>
+                        <p>Line drawing - $20</p>
+                        <p>Colored drawing - $35</p>
+                        <p>Shading - $40</p>
+                    </div>
+
+                    <p>For other projects, you can ask me.</p>
+                    <p>Half of the fee must be paid up front.</p>
+
+                </div>
+
+            </article>
+
+            <article id="contact-info" class="contact-info">
+
+                <h2>I'd love to bring your ideas to life!</h2>
+
+                <div class="info-backdrop">
+                    <p>Need some art done? Email me at:</p>
+                    <p>exampleemail@somewhere.com</p>
+                </div>
+
+            </article>
+
+        </main>
+
+        <footer>
+            <p>Font - "Just Another Hand" by Astigmatic and licensed under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
+        </footer>
+    </body>
+</html>
