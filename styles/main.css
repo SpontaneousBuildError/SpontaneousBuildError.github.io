@@ -135,6 +135,7 @@ body {
 
 .about-me .portrait-image {
     justify-self: right;
+
     width: 250px;
     height: 350px;
 }
@@ -216,7 +217,7 @@ footer a{
     .about-me .landscape-image {
         width: 175px;
         height: 245px;
-        content: url("../images/self-portrait.png");
+        content: url("../images/portrait.png");
         justify-self: center;
     }
 

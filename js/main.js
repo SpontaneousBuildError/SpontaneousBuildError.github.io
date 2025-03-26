@@ -48,31 +48,6 @@ const onScreenResize = window.addEventListener('resize', function(event) {
     setIndex(currentIndex);
 });
 
-// const onAboutMeClicked = aboutMeButton.addEventListener('click', function() {
-//     window.scrollTo(0, 0);
-// });
-
-// const onPortfolioClicked = portfolioButton.addEventListener('click', function () {
-//     if (window.innerWidth <= 700)
-//         window.scrollTo(0, (screen.height * 2) - 120);
-//     else
-//     window.scrollTo(0, screen.height - 60);
-// });
-
-// const onPricingClicked = pricingButton.addEventListener('click', function () {
-//     if (window.innerWidth <= 700)
-//         window.scrollTo(0, (screen.height * 2.6))
-//     else
-//         window.scrollTo(0, (screen.height * 1.7))
-// });
-
-// const onContactInfoClicked = contactInfoButton.addEventListener('click', function () {
-//     if (window.innerWidth <= 700)
-//         window.scrollTo(0, screen.height * 3.5)
-//     else
-//         window.scrollTo(0, screen.height * 2.6)
-// });
-
 var waypointClicks = [];
 
 function createWaypoints() {
