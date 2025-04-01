@@ -3,60 +3,35 @@ p, h1, h2, button, a {
     font-weight: 300;
 }
 
-html {
-    height: 500dvh;
-}
-
 body {
-    position: relative;
-
-    width: 100%;
-    height: 100%;
     background-image: linear-gradient(#B54EA2, #2F224F, #084360, #00AAFF);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100% 100%;
 
-    margin: 0;
-
-    overflow-x: hidden;
+    background-color: red;
 }
 
-.header {
-    position: fixed;
+.navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-
-    z-index: 3;
-
-    justify-content: center;
-
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 60px;
 
     background-color: #FFC8C8;
 
     box-shadow: 0px 7px 3px #00000f52;
-}
-
-.navigation {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
 
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 
-    width: 80%;
-    height: 100%;
+    height: 60px;
 }
 
 .navigation a {
@@ -107,6 +82,7 @@ body {
     display: flex;
     flex-direction: row;
 
+    width: 100%;
     height: auto;
 
     justify-content: space-between;
@@ -115,14 +91,12 @@ body {
 
     z-index: 0;
 
-    margin: 8px;
-
 }
 
 .about-me .introduction {
     width: 400px;
     height: 100%;
-    justify-self: left;
+    justify-self: center;
 }
 
 .about-me .landscape-image {
@@ -179,11 +153,6 @@ body {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
     height: 300px;
 
     background-color: #5b007752
@@ -209,7 +178,7 @@ footer a{
 
     .about-me .introduction {
         display: inline-grid;
-        width: 100%;
+        width: auto;
 
         margin-bottom: 72px;
     }
