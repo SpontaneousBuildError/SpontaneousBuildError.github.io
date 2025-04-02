@@ -1,3 +1,13 @@
+/* CUSTOMIZE SIZE RANGES FOR FONTS HERE */
+:root {
+    --header-size-min: 32px;
+    --header-size-max: 48px;
+    --p-size-min: 24px;
+    --p-size-max: 32px;
+    --content-policy-size-min: 22px;
+    --content-policy-size-max: 28px;
+}
+
 .contact-info {
     width: 100%;
     height: 100dvh;
@@ -14,7 +24,7 @@
 
 .contact-info h2 {
     text-align: center;
-    font-size: min(max(8vw, 32px), 48px);
+    font-size: min(max(9vw, var(--header-size-min)), var(--header-size-max));
 
     margin-top: 128px;
 
@@ -25,7 +35,7 @@
     text-align: center;
     line-height: 48px;
 
-    font-size: min(max(5vw, 24px), 32px);
+    font-size: min(max(6vw, var(--p-size-min)), var(--p-size-max));
     color: white;
 
     margin: 8px;
@@ -46,4 +56,9 @@
     width: max(60%, 300px);
     height: 350px;
     background-color: rgb(50, 50, 50, 0.5);
+}
+
+.contact-info .content-policy {
+    font-size: min(max(6vw, var(--content-policy-size-min)), var(--content-policy-size-max));
+    margin-top: 32px;
 }

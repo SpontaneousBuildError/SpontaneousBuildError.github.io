@@ -14,7 +14,7 @@
 
 .pricing h2 {
     text-align: center;
-    font-size: min(max(8vw, 32px), 48px);
+    font-size: min(max(9vw, 32px), 48px);
 
     margin-top: 128px;
 
@@ -23,7 +23,7 @@
 
 .pricing p {
     text-align: center;
-    font-size: min(max(5vw, 24px), 32px);
+    font-size: min(max(6vw, 24px), 32px);
     color: white;
 
     margin: 8px;
